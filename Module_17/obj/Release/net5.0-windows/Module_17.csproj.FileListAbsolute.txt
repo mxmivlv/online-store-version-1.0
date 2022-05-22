@@ -1,0 +1,62 @@
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.exe
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.deps.json
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.runtimeconfig.json
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.runtimeconfig.dev.json
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.dll
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.pdb
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\Notifications.Wpf.Core.dll
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\System.Data.SqlClient.dll
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Project C#\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.csproj.AssemblyReference.cache
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\MainWindow.g.cs
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\App.g.cs
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17_MarkupCompile.cache
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17_MarkupCompile.lref
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\MainWindow.baml
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.g.resources
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.AssemblyInfoInputs.cache
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.AssemblyInfo.cs
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.csproj.CoreCompileInputs.cache
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.csproj.CopyComplete
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.dll
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\refint\Module_17.dll
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.pdb
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.genruntimeconfig.cache
+C:\Project C#\Profession C# developer\Module_17\obj\Release\net5.0-windows\ref\Module_17.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.exe
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.deps.json
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.runtimeconfig.json
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.runtimeconfig.dev.json
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\Module_17.pdb
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\Notifications.Wpf.Core.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\System.Data.SqlClient.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\bin\Release\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.csproj.AssemblyReference.cache
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\MainWindow.g.cs
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\App.g.cs
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17_MarkupCompile.cache
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17_MarkupCompile.lref
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\MainWindow.baml
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.g.resources
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.AssemblyInfoInputs.cache
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.AssemblyInfo.cs
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.csproj.CoreCompileInputs.cache
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.csproj.CopyComplete
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\refint\Module_17.dll
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.pdb
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\Module_17.genruntimeconfig.cache
+C:\Project C#\Public GitHub\Profession C# developer\Module_17\obj\Release\net5.0-windows\ref\Module_17.dll

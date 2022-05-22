@@ -1,0 +1,282 @@
+﻿<Window x:Class="Module_17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:vm ="clr-namespace:Module_17.ViewModels"
+        Title="{Binding Title}" 
+        Height="800" 
+        Width="1000"
+        WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <vm:ViewModelMainWindow/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="211*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="156*"/>
+            <ColumnDefinition Width="156*"/>
+            <ColumnDefinition Width="156*"/>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="160*"/>
+            <ColumnDefinition Width="160*"/>
+            <ColumnDefinition Width="160*"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="dataGridMSSql" 
+                  Margin="5"
+                  IsSynchronizedWithCurrentItem="True"
+                  SelectionMode="Single"
+                  AutoGenerateColumns="False"
+                  ItemsSource="{Binding SqlDataTableClient}"
+                  SelectedItem="{Binding CurrentRow}"
+                  IsReadOnly="False"
+                  CanUserDeleteRows="True"
+                  Grid.ColumnSpan="4" 
+                  Grid.RowSpan="7">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="id"
+                                    Binding="{Binding Id}"
+                                    Header="Id"
+                                    IsReadOnly="True">
+                </DataGridTextColumn>
+
+                <DataGridTextColumn x:Name="SurnameClient"
+                                    Binding="{Binding SurnameClient}"
+                                    Header="Фамилия"
+                                    IsReadOnly="False">
+                </DataGridTextColumn>
+
+                <DataGridTextColumn x:Name="NameClient"
+                                    Binding="{Binding NameClient}"
+                                    Header="Имя"
+                                    IsReadOnly="False">
+                </DataGridTextColumn>
+
+                <DataGridTextColumn x:Name="PatronymicClient"
+                                    Binding="{Binding PatronymicClient}"
+                                    Header="Отчество"
+                                    IsReadOnly="False">
+                </DataGridTextColumn>
+
+                <DataGridTextColumn x:Name="NumberPhoneClient"
+                                    Binding="{Binding NumberPhoneClient}"
+                                    Header="Номер телефона"
+                                    IsReadOnly="False">
+                </DataGridTextColumn>
+
+                <DataGridTextColumn x:Name="EmailClient"
+                                    Binding="{Binding EmailClient}"
+                                    Header="Почта"
+                                    IsReadOnly="False">
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <GroupBox Header="{Binding GroupboxTitleClient}" 
+                  Margin="5" 
+                  Grid.RowSpan="7" 
+                  Grid.Column="4" 
+                  Grid.ColumnSpan="3">
+        </GroupBox>
+
+        <Label Content = "{Binding Surname}"
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" 
+               Margin="10,5,5,5" 
+               Grid.Column="4" 
+               Grid.Row="1">
+        </Label>
+        <TextBox Text="{Binding TextboxSurname, Mode=TwoWay}" 
+                 HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 Grid.Column="5" 
+                 Margin="5" 
+                 TextWrapping="Wrap" 
+                 Grid.Row="1">
+        </TextBox>
+
+        <Label Content = "{Binding Name}"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center" 
+               Margin="10,5,5,5" 
+               Grid.Column="4" 
+               Grid.Row="2">
+        </Label>
+        <TextBox Text="{Binding TextboxName, Mode=TwoWay}"
+                 HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 Grid.Column="5" 
+                 Margin="5,5,5,5" 
+                 TextWrapping="Wrap" 
+                 Grid.Row="2">
+        </TextBox>
+
+        <Label Content = "{Binding Patronymic}"
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" 
+               Margin="10,5,5,5" 
+               Grid.Column="4" 
+               Grid.Row="3">
+        </Label>
+        <TextBox Text="{Binding TextboxPatronymic, Mode=TwoWay}" 
+                 HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 Grid.Column="5" 
+                 Margin="5,5,5,5" 
+                 TextWrapping="Wrap" 
+                 Grid.Row="3">
+        </TextBox>
+
+        <Label Content = "{Binding NumberPhone}"
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" 
+               Margin="10,5,5,5" 
+               Grid.Column="4" 
+               Grid.Row="4">
+        </Label>
+        <TextBox Text="{Binding TextboxPhoneNumber, Mode=TwoWay}" 
+                 HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 Grid.Column="5" 
+                 Margin="5,5,5,5" 
+                 TextWrapping="Wrap" 
+                 Grid.Row="4">
+        </TextBox>
+        <Label Content = "{Binding Email}"
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" 
+               Margin="10,5,5,5" 
+               Grid.Column="4" 
+               Grid.Row="5">
+        </Label>
+
+        <TextBox Text="{Binding TextboxEmail, Mode=TwoWay}"
+                 HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 Grid.Column="5" 
+                 Margin="5,5,5,5" 
+                 TextWrapping="Wrap" 
+                 Grid.Row="5">
+        </TextBox>
+        <Button Grid.Column="6" 
+                Content="Добавить клиента"
+                Command="{Binding CommandAddClient}"
+                Margin="5,5,10,5" Grid.Row="1">
+        </Button>
+
+        <Button Grid.Column="6" 
+                Content="Удалить клиента"
+                Command="{Binding CommandDeleteClient}"
+                Margin="5,5,10,5" 
+                Grid.Row="2">
+        </Button>
+
+        <Button Grid.Column="6" 
+                Content="Показать покупки"
+                Command="{Binding CommandLoadPurchaseClient}"
+                Margin="5,5,10,5" 
+                Grid.Row="3">
+        </Button>
+
+        <Button Grid.Column="6" 
+                Content="Обновить данные"
+                Command="{Binding CommandUpdateClient}"
+                Margin="5,5,10,5" 
+                Grid.Row="4">
+        </Button>
+        <DataGrid Grid.Row="7" 
+                  Grid.ColumnSpan="4"
+                  Margin="5" 
+                  Grid.RowSpan="4"
+                  IsSynchronizedWithCurrentItem="True"
+                  SelectionMode="Single"
+                  AutoGenerateColumns="False"
+                  SelectedItem="{Binding CurrentRow}"
+                  ItemsSource="{Binding SqlDataTablePurchaseClient}"
+                  IsReadOnly="False"
+                  CanUserDeleteRows="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}"
+                                    Header="Id"
+                                    IsReadOnly="True">
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Binding="{Binding EmailBuyer}"
+                                    Header="Почта клиента"
+                                    IsReadOnly="True">
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Binding="{Binding CodeProduct}"
+                                    Header="Код продукта"
+                                    IsReadOnly="True">
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Binding="{Binding NameProduct}"
+                                    Header="Название продукта"
+                                    IsReadOnly="True">
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox Grid.Column="4" 
+                  Header="{Binding GroupboxTitleBuyer}" 
+                  Grid.ColumnSpan="3" 
+                  Margin="5" 
+                  Grid.RowSpan="4" 
+                  Grid.Row="7">
+        </GroupBox>
+
+        <Button Content="Добавить покупку"
+                Command="{Binding CommandAddBuyer}"
+                Margin="5,5,10,5" 
+                Grid.Row="8" 
+                Grid.Column="6">
+        </Button>
+
+        <TextBox Text="{Binding TextboxCodeProduct}"
+                 HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 Grid.Column="5" 
+                 Margin="5" 
+                 TextWrapping="Wrap" 
+                 Grid.Row="8">
+        </TextBox>
+
+        <TextBox Text="{Binding TextboxNameProduct}"
+                 HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 Grid.Column="5" 
+                 Margin="5" 
+                 TextWrapping="Wrap" 
+                 Grid.Row="9">
+        </TextBox>
+        <Label Content = "{Binding CodeProduct}"
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" 
+               Margin="10,5,5,5" 
+               Grid.Column="4" 
+               Grid.Row="8">
+        </Label>
+
+        <Label Content = "{Binding NameProduct}"
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" 
+               Margin="10,5,5,5" 
+               Grid.Column="4" 
+               Grid.Row="9">
+        </Label>
+    </Grid>
+</Window>
